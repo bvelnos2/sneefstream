@@ -1,382 +1,129 @@
 <!DOCTYPE html>
-<html  >
+<html lang="en">
 <head>
-  <!-- Site made with Mobirise Website Builder v6.0.6, https://mobirise.com -->
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Mobirise v6.0.6, mobirise.com">
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-  <link rel="shortcut icon" href="assets/images/logo-icontransparentw.png" type="image/x-icon">
-  <meta name="description" content="">
-  
-  
-  <title>Home</title>
-  <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
-  <link rel="stylesheet" href="assets/web/assets/mobirise-icons-bold/mobirise-icons-bold.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
-  <link rel="stylesheet" href="assets/dropdown/css/style.css">
-  <link rel="stylesheet" href="assets/socicon/css/styles.css">
-  <link rel="stylesheet" href="assets/theme/css/style.css">
-  <link rel="preload" href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
-  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=AlOUSQ"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=AlOUSQ" type="text/css">
-
-  
-  
-  
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>SneefStream</title>
+  <link rel="icon" type="image/png" href="https://github.com/bvelnos2/sneefstream/blob/main/tvlogo_icon.png?raw=true">
+  <style>
+    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background: #000; color: #fff; }
+    header { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; padding: 1rem 2rem; background: rgba(0,0,0,0.6); position: sticky; top: 0; z-index: 1000; }
+    header nav { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; justify-content: center; }
+    header a { color: #fff; text-decoration: none; background: rgba(255,255,255,0.1); border-radius: 12px; padding: 0.5rem 1rem; transition: background 0.3s; position: relative; }
+    header a:hover { background: rgba(255,255,255,0.3); }
+    header img.logo { height: 40px; max-width: 100%; }
+    .watch-now { font-weight: bold; border: 3px solid transparent; border-radius: 12px; background: rgba(255,255,255,0.1); }
+    .watch-now::before { content: ""; position: absolute; top: -3px; left: -3px; right: -3px; bottom: -3px; border-radius: 14px; background: linear-gradient(270deg, #7ec8e3, #c084fc, #fba0d0); background-size: 600% 600%; animation: gradientBorder 8s ease infinite; z-index: -1; }
+    @keyframes gradientBorder { 0% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } 100% { background-position: 0% 50%; } }
+    .section { padding: 2rem; }
+    .section-title { font-size: 1.5rem; margin-bottom: 1rem; }
+    .scroll-gallery { display: flex; gap: 1rem; overflow-x: auto; -webkit-overflow-scrolling: touch; scroll-behavior: smooth; cursor: grab; user-select: none; }
+    .scroll-gallery::-webkit-scrollbar { display: none; }
+    .scroll-gallery:active { cursor: grabbing; }
+    .scroll-gallery img { border-radius: 16px; max-height: 300px; width: auto; object-fit: cover; pointer-events: none; }
+    @media (max-width: 600px) { .scroll-gallery img { max-height: 200px; } .hero-simple h1 { font-size: 2rem; } .hero-simple p { font-size: 1rem; } }
+    .hero-simple { padding: 4rem 2rem; text-align: center; }
+    .hero-simple h1 { font-size: 2.5rem; margin: 0 0 1rem 0; }
+    .hero-simple p { font-size: 1.25rem; margin: 0; }
+  </style>
 </head>
 <body>
-  
-  <section data-bs-version="5.1" class="menu menu2 cid-uOdrEFdOk2" once="menu" id="menu2-e">
-    
-    <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
-        <div class="container">
-            <div class="navbar-brand">
-                
-                <span class="navbar-caption-wrap"><a class="navbar-caption text-white text-primary display-7" href="index.html">SneefStream</a></span>
-            </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <div class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-white display-4" href="https://add.sneef.stream">Request</a></li>
-                    <li class="nav-item"><a class="nav-link link text-white display-4" href="https://stats.uptimerobot.com/h1RNOoGrWm">Status</a></li>
-                    <li class="nav-item dropdown"><a class="nav-link link dropdown-toggle text-white show display-4" href="page1.html" data-toggle="dropdown-submenu" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">More</a><div class="dropdown-menu show" aria-labelledby="dropdown-373" data-bs-popper="none"><a class="dropdown-item text-white text-primary display-4" href="relax.html">relax.</a><a class="dropdown-item text-white text-primary display-4" href="devdiary.html">DevDiary</a></div>
-                    </li></ul>
-                
-                <div class="navbar-buttons mbr-section-btn"><a class="btn btn-white-outline display-4" href="https://watch.sneef.stream">Watch Now</a></div>
-            </div>
-        </div>
+  <header>
+    <img class="logo" src="https://github.com/bvelnos2/sneefstream/blob/main/tvlogo_icon.png?raw=true" alt="SneefStream Logo">
+    <nav>
+        <a href="https://add.sneef.stream/">Request Content</a>
+        <a href="https://stats.uptimerobot.com/h1RNOoGrWm">Status</a>
+        <a href="devdiary.html">DevDiary</a>
+        <a class="watch-now" href="https://watch.sneef.stream/">Watch Now</a>
     </nav>
-</section>
-
-<section data-bs-version="5.1" class="slider4 mbr-embla cid-uO9aOothNJ" id="slider04-9">
-    
-    
-    <div class="container-fluid">
-        <div class="row mb-5 justify-content-center">
-            <div class="col-12 content-head">
-                <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2"><strong>One streaming app.
-</strong><div><strong>Everything you watch.</strong></div></h3>
-                <h5 class="mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-4 display-7">TV Shows, Movies, and Live TV. All in one place.</h5>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <div class="embla position-relative" data-skip-snaps="true" data-align="center" data-contain-scroll="trimSnaps" data-loop="true" data-auto-play="true" data-auto-play-interval="3" data-draggable="true">
-                    <div class="embla__viewport">
-                        <div class="embla__container">
-                            <div class="embla__slide slider-image item active" style="margin-left: 1rem; margin-right: 1rem;">
-                                <div class="slide-content">
-                                    <div class="item-img">
-                                        <div class="item-wrapper">
-                                            <img src="assets/images/4243-five-nights-at-freddy039s-movie-poster-2023-movies-1200x675.jpg" alt="Mobirise Website Builder" title="" data-slide-to="0" data-bs-slide-to="0">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><div class="embla__slide slider-image item active" style="margin-left: 1rem; margin-right: 1rem;">
-                                <div class="slide-content">
-                                    <div class="item-img">
-                                        <div class="item-wrapper">
-                                            <img src="assets/images/649955-1200x675.jpg" alt="Mobirise Website Builder" title="" data-slide-to="1" data-bs-slide-to="1">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><div class="embla__slide slider-image item active" style="margin-left: 1rem; margin-right: 1rem;">
-                                <div class="slide-content">
-                                    <div class="item-img">
-                                        <div class="item-wrapper">
-                                            <img src="assets/images/884027-1200x675.jpg" alt="Mobirise Website Builder" title="" data-slide-to="2" data-bs-slide-to="2">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><div class="embla__slide slider-image item active" style="margin-left: 1rem; margin-right: 1rem;">
-                                <div class="slide-content">
-                                    <div class="item-img">
-                                        <div class="item-wrapper">
-                                            <img src="assets/images/1121149-1200x675.jpg" alt="Mobirise Website Builder" title="" data-slide-to="3" data-bs-slide-to="3">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><div class="embla__slide slider-image item active" style="margin-left: 1rem; margin-right: 1rem;">
-                                <div class="slide-content">
-                                    <div class="item-img">
-                                        <div class="item-wrapper">
-                                            <img src="assets/images/1144297-1200x675.jpg" alt="Mobirise Website Builder" title="" data-slide-to="4" data-bs-slide-to="4">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><div class="embla__slide slider-image item active" style="margin-left: 1rem; margin-right: 1rem;">
-                                <div class="slide-content">
-                                    <div class="item-img">
-                                        <div class="item-wrapper">
-                                            <img src="assets/images/1301272-1200x675.jpg" alt="Mobirise Website Builder" title="" data-slide-to="5" data-bs-slide-to="5">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><div class="embla__slide slider-image item active" style="margin-left: 1rem; margin-right: 1rem;">
-                                <div class="slide-content">
-                                    <div class="item-img">
-                                        <div class="item-wrapper">
-                                            <img src="assets/images/1333737-1200x675.png" alt="Mobirise Website Builder" title="" data-slide-to="6" data-bs-slide-to="6">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><div class="embla__slide slider-image item active" style="margin-left: 1rem; margin-right: 1rem;">
-                                <div class="slide-content">
-                                    <div class="item-img">
-                                        <div class="item-wrapper">
-                                            <img src="assets/images/2071702-2000x1125-desktop-hd-the-founder-2016-wallpaper-1200x675.jpg" alt="Mobirise Website Builder" title="" data-slide-to="7" data-bs-slide-to="7">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><div class="embla__slide slider-image item active" style="margin-left: 1rem; margin-right: 1rem;">
-                                <div class="slide-content">
-                                    <div class="item-img">
-                                        <div class="item-wrapper">
-                                            <img src="assets/images/2201792-1920x1080-desktop-1080p-superstore-tv-series-wallpaper-photo-1200x675.jpg" alt="Mobirise Website Builder" title="" data-slide-to="8" data-bs-slide-to="8">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><div class="embla__slide slider-image item active" style="margin-left: 1rem; margin-right: 1rem;">
-                                <div class="slide-content">
-                                    <div class="item-img">
-                                        <div class="item-wrapper">
-                                            <img src="assets/images/2617743-3840x1940-desktop-hd-the-rehearsal-tv-series-background-1200x606.jpg" alt="Mobirise Website Builder" title="" data-slide-to="9" data-bs-slide-to="9">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><div class="embla__slide slider-image item active" style="margin-left: 1rem; margin-right: 1rem;">
-                                <div class="slide-content">
-                                    <div class="item-img">
-                                        <div class="item-wrapper">
-                                            <img src="assets/images/american-horror-story-ml7qnuc6h5zoyz0j-1200x675.jpg" alt="Mobirise Website Builder" title="" data-slide-to="10" data-bs-slide-to="10">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><div class="embla__slide slider-image item active" style="margin-left: 1rem; margin-right: 1rem;">
-                                <div class="slide-content">
-                                    <div class="item-img">
-                                        <div class="item-wrapper">
-                                            <img src="assets/images/companionmovieheader-1200x798.jpg" alt="Mobirise Website Builder" title="" data-slide-to="11" data-bs-slide-to="11">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><div class="embla__slide slider-image item active" style="margin-left: 1rem; margin-right: 1rem;">
-                                <div class="slide-content">
-                                    <div class="item-img">
-                                        <div class="item-wrapper">
-                                            <img src="assets/images/deadpool-coverart-1600x686-v2-54b71a96-1200x515.jpg" alt="Mobirise Website Builder" title="" data-slide-to="12" data-bs-slide-to="12">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><div class="embla__slide slider-image item active" style="margin-left: 1rem; margin-right: 1rem;">
-                                <div class="slide-content">
-                                    <div class="item-img">
-                                        <div class="item-wrapper">
-                                            <img src="assets/images/el-camino-a-breaking-bad-movie-2019-49296-1200x675.jpg" alt="Mobirise Website Builder" title="" data-slide-to="13" data-bs-slide-to="13">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><div class="embla__slide slider-image item active" style="margin-left: 1rem; margin-right: 1rem;">
-                                <div class="slide-content">
-                                    <div class="item-img">
-                                        <div class="item-wrapper">
-                                            <img src="assets/images/image-asset-1200x675.jpg" alt="Mobirise Website Builder" title="" data-slide-to="14" data-bs-slide-to="14">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><div class="embla__slide slider-image item active" style="margin-left: 1rem; margin-right: 1rem;">
-                                <div class="slide-content">
-                                    <div class="item-img">
-                                        <div class="item-wrapper">
-                                            <img src="assets/images/poster-dune-2-diuna-2-timoti-shalame-paul-atreides-timothee-1200x750.jpg" alt="Mobirise Website Builder" title="" data-slide-to="15" data-bs-slide-to="15">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><div class="embla__slide slider-image item active" style="margin-left: 1rem; margin-right: 1rem;">
-                                <div class="slide-content">
-                                    <div class="item-img">
-                                        <div class="item-wrapper">
-                                            <img src="assets/images/the-lego-movie-wallpaper-8514535-1200x750.jpg" alt="Mobirise Website Builder" title="" data-slide-to="16" data-bs-slide-to="16">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><div class="embla__slide slider-image item active" style="margin-left: 1rem; margin-right: 1rem;">
-                                <div class="slide-content">
-                                    <div class="item-img">
-                                        <div class="item-wrapper">
-                                            <img src="assets/images/the-martian-u9lthj1y367lwlxv-1200x675.jpg" alt="Mobirise Website Builder" title="" data-slide-to="17" data-bs-slide-to="17">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><div class="embla__slide slider-image item active" style="margin-left: 1rem; margin-right: 1rem;">
-                                <div class="slide-content">
-                                    <div class="item-img">
-                                        <div class="item-wrapper">
-                                            <img src="assets/images/wp7254545-1200x675.jpg" alt="Mobirise Website Builder" title="" data-slide-to="18" data-bs-slide-to="18">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><div class="embla__slide slider-image item active" style="margin-left: 1rem; margin-right: 1rem;">
-                                <div class="slide-content">
-                                    <div class="item-img">
-                                        <div class="item-wrapper">
-                                            <img src="assets/images/whiplash-k3uai9xoihgly7um-1200x750.jpg" alt="Mobirise Website Builder" title="" data-slide-to="19" data-bs-slide-to="19">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><div class="embla__slide slider-image item active" style="margin-left: 1rem; margin-right: 1rem;">
-                                <div class="slide-content">
-                                    <div class="item-img">
-                                        <div class="item-wrapper">
-                                            <img src="assets/images/wp10971683.webp" alt="Mobirise Website Builder" title="" data-slide-to="20" data-bs-slide-to="20">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            
-                            
-                            
-                            
-                            
-                        </div>
-                    </div>
-                    <button class="embla__button embla__button--prev">
-                        <span class="mobi-mbri mobi-mbri-arrow-prev" aria-hidden="true"></span>
-                        <span class="sr-only visually-hidden visually-hidden">Previous</span>
-                    </button>
-                    <button class="embla__button embla__button--next">
-                        <span class="mobi-mbri mobi-mbri-arrow-next" aria-hidden="true"></span>
-                        <span class="sr-only visually-hidden visually-hidden">Next</span>
-                    </button>
-                </div>
-            </div>
-        </div>
+  </header>
+  <main>
+    <div class="hero-simple">
+      <h1>SneefStream</h1>
+      <p>250+ Movies · 50+ TV Shows · Live Cable Television · Relax Audio Library</p>
     </div>
-</section>
-
-<section data-bs-version="5.1" class="features22 cid-uO9dmCN3Nm" id="features022-a">
-  
-
-  
-  
-  <div class="container">
-    <div class="row mb-5 justify-content-center">
-      <div class="col-12 content-head">
-        
-        <h5 class="mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-4 display-7">
-          Explore what makes SneefStream unique.</h5>
+    <div class="section">
+      <div class="section-title">Movies</div>
+      <div class="scroll-gallery" id="movies-gallery">
+        <img src="https://image.tmdb.org/t/p/w500/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg" alt="Spirited Away">
+        <img src="https://image.tmdb.org/t/p/w500/4DGPORlVIDIQvsuSDnM4uXKMjWS.jpg" alt="Parasite">
+        <img src="https://image.tmdb.org/t/p/w500/vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg" alt="Pulp Fiction">
+        <img src="https://image.tmdb.org/t/p/w500/im6u58cPa9HlH5DqSnZGy0O37l5.jpg" alt="Grave of the Fireflies">
+        <img src="https://image.tmdb.org/t/p/w500/23hUJh7JdO23SpgUB5oiFDQk2wX.jpg" alt="Howl's Moving Castle">
+        <img src="https://image.tmdb.org/t/p/w500/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg" alt="Spider-Man: Into the Spider-Verse">
+        <img src="https://image.tmdb.org/t/p/w500/7B57WFKemsJvYwLACZiSZMUZcKM.jpg" alt="Whiplash">
+        <img src="https://image.tmdb.org/t/p/w500/oYuLEt3zVCKq57qu2F8dT7NIa6f.jpg" alt="Inception">
+        <img src="https://image.tmdb.org/t/p/w500/cMYCDADoLKLbB83g4WnJegaZimC.jpg" alt="Princess Mononoke">
+        <img src="https://image.tmdb.org/t/p/w500/4V6DH7zvZCRhTMRRkouI9kosQ0C.jpg" alt="Back to the Future">
+        <img src="https://image.tmdb.org/t/p/w500/p96dm7sCMn4VYAStA6siNz30G1r.jpg" alt="The Matrix">
+        <img src="https://image.tmdb.org/t/p/w500/bdN3gXuIZYaJP7ftKK2sU0nPtEA.jpg" alt="The Prestige">
+        <img src="https://image.tmdb.org/t/p/w500/aV1KGO9X3S4kzqEptVDAvGjccql.jpg" alt="Puss in Boots: The Last Wish">
+        <img src="https://image.tmdb.org/t/p/w500/6izwz7rsy95ARzTR3poZ8H6c5pp.jpg" alt="Dune: Part Two">
+        <img src="https://image.tmdb.org/t/p/w500/vuza0WqY239yBXOadKlGwJsZJFE.jpg" alt="The Truman Show">
+        <img src="https://image.tmdb.org/t/p/w500/hbhFnRzzg6ZDmm8YAmxBnQpQIPh.jpg" alt="WALL·E">
+        <img src="https://image.tmdb.org/t/p/w500/uhviyknTT5cEQXbn6vWIqfM4vGm.jpg" alt="Prisoners">
+        <img src="https://image.tmdb.org/t/p/w500/c54HpQmuwXjHq2C9wmoACjxoom3.jpg" alt="Harry Potter and the Deathly Hallows: Part 2">
+        <img src="https://image.tmdb.org/t/p/w500/rtGDOeG9LzoerkDGZF9dnVeLppL.jpg" alt="My Neighbor Totoro">
+        <img src="https://image.tmdb.org/t/p/w500/y7avHgNizJ13WSRTRNtcMvhx01L.jpg" alt="Castle in the Sky">
+        <img src="https://image.tmdb.org/t/p/w500/iZf0KyrE25z1sage4SYFLCCrMi9.jpg" alt="1917">
+        <img src="https://image.tmdb.org/t/p/w500/8UlWHLMpgZm9bx6QYh0NFoq67TZ.jpg" alt="Wonder Woman 1984">
+        <img src="https://image.tmdb.org/t/p/w500/pEz5aROvfy5FBW1OTlrDO3VryWO.jpg" alt="Soul">
+        <img src="https://image.tmdb.org/t/p/w500/5nVhgCzxKbK47OLIKxCR1syulOn.jpg" alt="Raya and the Last Dragon">
       </div>
     </div>
-    <div class="row mbr-masonry" data-masonry="{&quot;percentPosition&quot;: true }">
-      <div class="item features-without-image col-12 col-md-6 col-lg-4 item-mb">
-        <div class="item-wrapper">
-          <div class="card-box align-left">
-            <div class="iconfont-wrapper">
-              <span class="mbr-iconfont mbrib-video"></span>
-            </div>
-            <h5 class="card-title mbr-fonts-style display-5">
-              <strong>TV Shows</strong></h5>
-            <p class="card-text mbr-fonts-style display-7">
-              SneefStream offers an ever-expanding collection of over 50 TV shows, with new titles added regularly to keep viewers entertained. Whether you're into the latest hits or classic favorites, there's always something fresh to enjoy.
-            </p>
-
-            
-          </div>
-        </div>
-      </div>
-      <div class="item features-without-image col-12 col-md-6 col-lg-4 item-mb">
-        <div class="item-wrapper">
-          <div class="card-box align-left">
-            <div class="iconfont-wrapper">
-              <span class="mbr-iconfont mobi-mbri-add-submenu mobi-mbri"></span>
-            </div>
-            <h5 class="card-title mbr-fonts-style display-5">
-              <strong>Movies</strong></h5>
-            <p class="card-text mbr-fonts-style display-7">
-              SneefStream boasts a growing library of over 250 movies, offering a diverse range of genres to suit every taste. With new films constantly being added, there's always something exciting to discover.
-            </p>
-
-            
-          </div>
-        </div>
-      </div>
-      <div class="item features-without-image col-12 col-md-6 col-lg-4 item-mb">
-        <div class="item-wrapper">
-          <div class="card-box align-left">
-            <div class="iconfont-wrapper">
-              <span class="mbr-iconfont mobi-mbri-globe mobi-mbri"></span>
-            </div>
-            <h5 class="card-title mbr-fonts-style display-5">
-              <strong>Live TV</strong></h5>
-            <p class="card-text mbr-fonts-style display-7">
-              SneefStream brings the thrill of Live TV with access to over 100 channels, including a mix of news, sports, entertainment, and more. With a constantly expanding lineup, you'll never miss your favorite shows or live events.
-            </p>
-
-            
-          </div>
-        </div>
-      </div>
-      <div class="item features-without-image col-12 col-md-6 col-lg-4 item-mb">
-        <div class="item-wrapper">
-          <div class="card-box align-left">
-            <div class="iconfont-wrapper">
-              <span class="mbr-iconfont mobi-mbri-numbered-list mobi-mbri"></span>
-            </div>
-            <h5 class="card-title mbr-fonts-style display-5">
-              <strong>Request Content</strong></h5>
-            <p class="card-text mbr-fonts-style display-7">
-              SneefStream gives users full control with a dedicated dashboard for requesting new content, making it easy to submit your favorites. Best of all, your requests are prioritized and added by the end of the day, ensuring you're always up-to-date with the latest titles.
-            </p>
-
-            
-          </div>
-        </div>
-      </div>
-      <div class="item features-without-image col-12 col-md-6 col-lg-4 item-mb">
-        <div class="item-wrapper">
-          <div class="card-box align-left">
-            <div class="iconfont-wrapper">
-              <span class="mbr-iconfont mobi-mbri-users mobi-mbri"></span>
-            </div>
-            <h5 class="card-title mbr-fonts-style display-5">
-              <strong>Stream Together</strong></h5>
-            <p class="card-text mbr-fonts-style display-7">
-              SneefStream’s Stream Together feature lets you watch your favorite shows and movies with friends and family, no matter the distance. Enjoy synchronized viewing in real time, making it feel like you're all in the same room, even when apart.
-            </p>
-
-            
-          </div>
-        </div>
-      </div>
-      <div class="item features-without-image col-12 col-md-6 col-lg-4 item-mb">
-        <div class="item-wrapper">
-          <div class="card-box align-left">
-            <div class="iconfont-wrapper">
-              <span class="mbr-iconfont mobi-mbri-smile-face mobi-mbri"></span>
-            </div>
-            <h5 class="card-title mbr-fonts-style display-5">
-              <strong>Just relax.</strong></h5>
-            <p class="card-text mbr-fonts-style display-7">
-              SneefStream’s 'relax' Library offers over 50 calming audio tracks perfect for sleeping, working, or unwinding, helping you create the ideal atmosphere for relaxation.&nbsp;</p>
-
-            
-          </div>
-        </div>
+    <div class="section">
+      <div class="section-title">TV Shows</div>
+      <div class="scroll-gallery" id="tvshows-gallery">
+        <img src="https://image.tmdb.org/t/p/w500/ztkUQFLlC19CCMYHW9o1zWhJRNq.jpg" alt="Breaking Bad">
+        <img src="https://image.tmdb.org/t/p/w500/8WEr48swcqe89Zsy5sdrGCASlIg.jpg" alt="Haikyu!!">
+        <img src="https://image.tmdb.org/t/p/w500/6JFWzlChcGgLiIUo2COgNlWGFKy.jpg" alt="BoJack Horseman">
+        <img src="https://image.tmdb.org/t/p/w500/cIfGAkpvWD2zxHrXzhv3uptYbyV.jpg" alt="Sherlock">
+        <img src="https://image.tmdb.org/t/p/w500/wRSnArnQBmeUYb5GWDU595bGsBr.jpg" alt="Our Planet">
+        <img src="https://image.tmdb.org/t/p/w500/VYnnyA2hyxi3VUPgCA71mMtt69.jpg" alt="The Amazing World of Gumball">
+        <img src="https://image.tmdb.org/t/p/w500/pPHpeI2X1qEd1CS1SeyrdhZ4qnT.jpg" alt="Severance">
+        <img src="https://image.tmdb.org/t/p/w500/sdJcX2cXirwQurLLlrDLYov7hcD.jpg" alt="Futurama">
+        <img src="https://image.tmdb.org/t/p/w500/seN6rRfN0I6n8iDXjlSMk1QjNcq.jpg" alt="Black Mirror">
+        <img src="https://image.tmdb.org/t/p/w500/kv1nRqgebSsREnd7vdC2pSGjpLo.jpg" alt="Mr. Robot">
+        <img src="https://image.tmdb.org/t/p/w500/hgRMSOt7a1b8qyQR68vUixJPang.jpg" alt="Brooklyn Nine-Nine">
+        <img src="https://image.tmdb.org/t/p/w500/pCGyPVrI9Fzw6rE1Pvi4BIXF6ET.jpg" alt="Ozark">
+        <img src="https://image.tmdb.org/t/p/w500/6tGXlz61c44onUg6EdRkbhjcaPA.jpg" alt="Nathan for You">
+        <img src="https://image.tmdb.org/t/p/w500/syR1jnNWkCBKVjPXA2FmCcdXxJI.jpg" alt="World of Dance">
+        <img src="https://image.tmdb.org/t/p/w500/5LLG9bjq0i7V5N4UfRhnab8zHK4.jpg" alt="American Horror Story">
+        <img src="https://image.tmdb.org/t/p/w500/2koX1xLkpTQM4IZebYvKysFW1Nh.jpg" alt="Friends">
+        <img src="https://image.tmdb.org/t/p/w500/7DJKHzAi83BmQrWLrYYOqcoKfhR.jpg" alt="The Office">
+        <img src="https://image.tmdb.org/t/p/w500/1XS1oqL89opfnbLl8WnZY1O1uJx.jpg" alt="Game of Thrones">
+        <img src="https://image.tmdb.org/t/p/w500/2zmTngn1tYC1AvfnrFLhxeD82hz.jpg" alt="The Boys">
+        <img src="https://image.tmdb.org/t/p/w500/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg" alt="Stranger Things">
       </div>
     </div>
-  </div>
-<script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/embla/embla.min.js"></script>  <script src="assets/embla/script.js"></script>  <script src="assets/masonry/masonry.pkgd.min.js"></script>  <script src="assets/imagesloaded/imagesloaded.pkgd.min.js"></script>  <script src="assets/theme/js/script.js"></script>  
-  
-  
+  </main>
+  <script>
+    document.querySelectorAll('.scroll-gallery').forEach(container => {
+      let isDown = false;
+      let startX;
+      let scrollLeft;
+      container.addEventListener('mousedown', e => {
+        isDown = true;
+        startX = e.pageX - container.offsetLeft;
+        scrollLeft = container.scrollLeft;
+        container.style.scrollBehavior = 'auto';
+      });
+      container.addEventListener('mouseleave', () => {
+        isDown = false;
+        container.style.scrollBehavior = 'smooth';
+      });
+      container.addEventListener('mouseup', () => {
+        isDown = false;
+        container.style.scrollBehavior = 'smooth';
+      });
+      container.addEventListener('mousemove', e => {
+        if (!isDown) return;
+        e.preventDefault();
+        const x = e.pageX - container.offsetLeft;
+        const walk = (x - startX);
+        container.scrollLeft = scrollLeft - walk;
+      });
+    });
+  </script>
 </body>
 </html>
